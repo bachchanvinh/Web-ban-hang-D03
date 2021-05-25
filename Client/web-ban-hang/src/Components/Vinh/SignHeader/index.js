@@ -1,17 +1,17 @@
 import { NavLink } from 'react-router-dom'
-import logo from '../../../Logo/logo-horizontal.png'
+import logo from '../../../Img/Signin img/logo-horizontal.png'
 import './style.css'
 
 
 function SignHeader() {
     return (
-        <div className="Header-Sign">
-            <div className="item-container-header">
-                <div className="logo-header">
+        <div className="Header-Sign flew-row">
+            <div className="item-container-header flew-row">
+                <div className="logo-header flew-row">
                 <img src={logo} alt="logo" />
-                <p>Đăng ký</p>
+                <p>Đăng nhập</p>
                 </div>
-                <a href="#">Cần trợ giúp</a>
+                <a href="#" className="help-link">Cần trợ giúp?</a>
             </div>
         </div>
     )

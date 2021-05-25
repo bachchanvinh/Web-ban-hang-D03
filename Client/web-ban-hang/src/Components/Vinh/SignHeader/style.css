@@ -1,23 +1,18 @@
 .Header-Sign{
     height: 84px;
     width: auto;
-    display: flex;
-    flex-flow:row wrap;
     justify-content: center;
     align-items: center;
+    margin:0 80px
 }
 
 .item-container-header {
     width: 1200px;
     height: 34px;
-    display: flex;
-    flex-flow:row wrap;
     justify-content: space-between;
     align-items: center;
 }
 .logo-header {
-    display: flex;
-    flex-flow:row wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -30,4 +25,8 @@
     margin:10px 0px 0px 20px;
     font-size: 1.5rem;
     font-weight: 480;
+}
+.help-link{
+    color: #ee4d2d;
+    text-decoration: none;
 }

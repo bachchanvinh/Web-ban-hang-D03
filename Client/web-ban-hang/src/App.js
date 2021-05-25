@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import './App.css';
 import Homepage from './Pages/Home'
-import Signinpage from './Pages/Signin'
-import Signuppage from './Pages/Signup'
+import Signpage from './Pages/Signin-up'
 import Header from './Components/Header'
 
 function App() {
@@ -10,9 +9,8 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/home" component={Homepage,Header}/>
-          <Route path="/signin" component={Signinpage}/>
-          <Route path="/signup" component={Signuppage}/>
+          <Route exact path="/" ><Header/><Homepage/></Route>
+          <Route path="/signin" component={Signpage}/>
         </Switch>
       </Router>
 
