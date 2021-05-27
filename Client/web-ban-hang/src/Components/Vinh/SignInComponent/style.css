@@ -1,0 +1,92 @@
+.Sign-in-form {
+    background-color:white;
+    width: 367px;
+    height: 397.5px;
+    text-align: left;
+    padding:30px
+}
+
+.Sign-in-form h3 {
+    font-size: 1.25rem;
+    color: #222;
+    text-transform: capitalize;
+    font-weight: 390;
+    margin-bottom: 30px;
+}
+.noti-fail{
+    border: 1px solid rgba(255,66,79,.2);
+    padding:12px 15px;
+    width: 305px;
+    height: 43px;
+    font-size: .875rem;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.noti-fail p {
+    width: 279px;
+}
+.stardust-icon {
+    color: #ff424f;
+    width: 1rem;
+    height: 1rem;
+}
+.sign-input{
+    margin-bottom: 20px;
+}
+.input-normal{
+    border: 1px solid rgba(0,0,0,.14);
+    width: 335px;
+    height: 16px;
+    padding:12px;
+}
+.input-fail{
+    border: 1px solid #ff424f;
+    width: 335px;
+    height: 16px;
+    padding:12px;
+    background: #fff6f7;
+}
+.input-password {
+    border: none;
+    width: 310px;
+}
+.space-between {
+    justify-content: space-between;
+}
+.stardust-icon:hover {
+    cursor: pointer;
+}
+.Form-cotainner input:focus {
+    outline: none;
+}
+.noti-sign {
+    margin: 0;
+    padding: 0.25rem 0 0;
+    font-size: 0.75rem;
+    color: #ff424f;
+    min-height: 1rem;
+}
+
+.signin-button {
+    color: #fff;
+    background-color: #ee4d2d;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    width: 100%;
+    text-transform: uppercase;
+    height: 2.5rem;
+    outline: none;
+    padding: 0 .625rem;
+    border: 0;
+    border-radius: .125rem;
+    margin-bottom:20px;
+}
+.signup-sen {
+    font-size: .875rem;
+    padding-right: .25rem;
+    color: rgba(0,0,0,.26);
+}
+.signup-link  {
+    color: #ee4d2d;
+    font-weight: 500;
+    text-decoration: none;
+}
